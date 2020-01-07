@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotVirus", "NotVirus\NotVirus.csproj", "{CE84AFCE-5B4A-4BB3-827D-DCABF22E21EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE84AFCE-5B4A-4BB3-827D-DCABF22E21EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE84AFCE-5B4A-4BB3-827D-DCABF22E21EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE84AFCE-5B4A-4BB3-827D-DCABF22E21EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE84AFCE-5B4A-4BB3-827D-DCABF22E21EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760D4B58-2CCA-42E8-A225-AC3493609DDD}
+	EndGlobalSection
+EndGlobal

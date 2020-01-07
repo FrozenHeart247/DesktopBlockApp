@@ -1,0 +1,8 @@
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\bin\Debug\NotVirus.exe
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\bin\Debug\NotVirus.pdb
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.csprojAssemblyReference.cache
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.Form1.resources
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.Properties.Resources.resources
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.csproj.GenerateResource.cache
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.exe
+D:\Study\2019-2020\Books\C#\C#Projects\NotVirus\NotVirus\obj\Debug\NotVirus.pdb
