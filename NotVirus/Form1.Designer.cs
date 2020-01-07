@@ -48,7 +48,7 @@
             // 
             // EscapeButton
             // 
-            this.EscapeButton.Location = new System.Drawing.Point(380, 382);
+            this.EscapeButton.Location = new System.Drawing.Point(109, 219);
             this.EscapeButton.Name = "EscapeButton";
             this.EscapeButton.Size = new System.Drawing.Size(75, 23);
             this.EscapeButton.TabIndex = 1;
@@ -61,7 +61,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(333, 267);
+            this.ClientSize = new System.Drawing.Size(323, 271);
             this.Controls.Add(this.EscapeButton);
             this.Controls.Add(this.picBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -70,7 +70,9 @@
             this.Text = "смэрть, да?";
             this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
             ((System.ComponentModel.ISupportInitialize)(this.picBox1)).EndInit();
             this.ResumeLayout(false);
 

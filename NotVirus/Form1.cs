@@ -20,6 +20,7 @@ namespace NotVirus
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
             EscapeButton.Visible = false;
             this.ShowInTaskbar = false;
             this.TopMost = true;
@@ -90,6 +91,52 @@ namespace NotVirus
             pictureBox3.Location = point2;
         }
 
-     
+        protected override void OnKeyDown(KeyEventArgs e)
+    {
+            //e.SuppressKeyPress = e.Alt && e.KeyCode == Keys.Tab; //не работает хз
+            //e.SuppressKeyPress = e.Alt && e.KeyCode == Keys.F4; 
+            base.OnKeyDown(e);
+        }
+
+        /* protected override bool ProcessCmdKey(ref System.Windows.Forms.Message msg, System.Windows.Forms.Keys keyData)
+        {
+            if (keyData == (Keys.Alt | Keys.Tab))
+            {
+                MessageBox.Show("Alt + Tab catched!");
+                return true;  // The key is manually processed
+            }
+            else
+                return base.ProcessCmdKey(ref msg, keyData);
+        
+        /*
+        if ((Control.ModifierKeys & Keys.Alt) == Keys.Alt)
+        {
+
+            MessageBox.Show("Alt catched!");
+            return true;
+        }
+        else
+            return base.ProcessCmdKey(ref msg, keyData);
+          }  */
+    
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+               if (e.KeyData != Keys.Return)
+                return;
+            MessageBox.Show("OK?", "ВИРУС");
+                        
+          
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (ModifierKeys == Keys.Alt || ModifierKeys == Keys.F4)
+            {
+                e.Cancel = true;
+            }
+                       
+        }
     }
 }
